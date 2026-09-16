@@ -1,0 +1,23 @@
+model:
+  id: "HuggingFaceTB/SmolVLM2-500M-Video-Instruct"
+
+runtime:
+  preferred_backend: "auto"
+  num_threads: null
+  num_streams: null
+
+video:
+  max_frames: 8
+  frame_max_size: 512
+
+image:
+  max_size: 768
+
+chat:
+  max_history: 10
+  max_new_tokens: 200
+
+tts:
+  engine: "gtts"
+  language: "en"
+  output_dir: "outputs"
